@@ -222,6 +222,12 @@ body {
     display: flex;
     align-items: center;
 }
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
 
 .about__p {
     font-family: 'Old Standard TT', sans-serif;

@@ -55,7 +55,7 @@
         font-size: 50px;
         width: 500px;
         line-height: 60px;
-        
+
     }
 }
 
@@ -66,10 +66,11 @@
         line-height: 46px;
 
     }
+
     .span__btn {
         padding: 8px 20px;
-            
-        }
+
+    }
 }
 
 @media screen and (max-width:450px) {
@@ -78,11 +79,13 @@
         width: 320px;
         line-height: 36px;
     }
+
     .span__btn {
-    padding: 8px 20px;
-        
+        padding: 8px 20px;
+
     }
 }
+
 @media screen and (max-width:769px) {
     .temp__h {
         font-size: 40px;
@@ -94,13 +97,59 @@
     .temp__h {
         font-size: 26px;
         line-height: 40px;
-        
+
     }
-   .cards {
-    padding: 0px;
-   }
+
+    .cards {
+        padding: 0px;
+    }
+
     .cards__h {
-    margin-bottom: 11px;
-        
+        margin-bottom: 11px;
+    }
+}
+
+@media screen and (max-width:1127px) {
+    .about__h {
+        font-size: 50px;
+    }
+
+    .card__wrap {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:588px) {
+    .about__h {
+        font-size: 32px;
+    }
+
+    .card__body {
+        padding: 31px 51px 36px 31px;
+        width: 300px
+    }
+}
+
+@media screen and (max-width:447px) {
+    .about__h {
+        font-size: 20px;
+        line-height: 20px;
+    }
+}
+.about__p {
+    font-size: 8px;
+    line-height: 12px;
+    
+}
+
+@media screen and (max-width:378px) {
+    .about__h {
+        font-size: 16px;
+        line-height: 20px;
+
+    }
+    .card__body {
+        padding: 11px 31px 16px 11px;
+        width: 200px
     }
 }
